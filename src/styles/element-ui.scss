@@ -47,3 +47,25 @@
 .el-range-separator {
   box-sizing: content-box;
 }
+
+.el-main {
+  padding: 0;
+}
+
+/* 设置全局 el-table 表头的字体样式 */
+.el-table__header th {
+  background-color: #e0e0e0;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'MR', serif;
+}
+
+/* 设置全局 el-table 表格的字体样式 */
+.el-table {
+  font-family: 'MR', sans-serif; /* 设置字体 */
+  font-size: 14px; /* 设置字体大小 */
+  color: #333; /* 设置字体颜色 */
+  /* 其他字体样式属性 */
+}
+

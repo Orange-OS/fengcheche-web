@@ -66,7 +66,27 @@ export const constantRoutes = [
       meta: { title: 'Period', icon: 'dashboard' }
     }]
   },
-
+  {
+    path: '/computer',
+    component: Layout,
+    redirect: '/computer/computer',
+    name: 'Computer',
+    meta: { title: 'Computer', icon: 'el-icon-s-help' },
+    children: [
+      {
+        path: 'computer',
+        name: 'Computer',
+        component: () => import('@/views/computer/index'),
+        meta: { title: 'Computer', icon: 'table' }
+      },
+      {
+        path: 'cpu',
+        name: 'CPU',
+        component: () => import('@/views/computer/cpu/index'),
+        meta: { title: 'CPU', icon: 'tree' }
+      }
+    ]
+  },
   {
     path: '/example',
     component: Layout,

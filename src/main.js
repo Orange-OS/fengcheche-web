@@ -15,6 +15,9 @@ import router from './router'
 import '@/icons' // icon
 import '@/permission' // permission control
 
+// 引入字体
+import '@/assets/font/font.css'
+
 /**
  * If you don't want to use mock-server
  * you want to use MockJs for mock api

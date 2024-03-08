@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "MB"; /* 自定义字体名称 */
+  src: url('MiSans-Bold.ttf'); /* 引入字体路径 */
+  font-weight: normal; /* 字体粗细 */
+  font-style: normal; /* 字体风格 */
+}
+
+@font-face {
+  font-family: "MM";
+  src: url('MiSans-Medium.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MR";
+  src: url('MiSans-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Maoken";
+  src: url('MaokenAssortedSans.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+

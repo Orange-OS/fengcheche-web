@@ -21,8 +21,6 @@ service.interceptors.request.use(
       // please modify it according to the actual situation
       config.headers['Authorization'] = getToken()
     }
-
-    console.log('config', config)
     // 在拦截器的最后，必须返回修改后的 config 对象，以确保请求继续进行。如果不返回 config，请求将被阻止。
     return config
   },
@@ -73,7 +71,6 @@ service.interceptors.response.use(
       // }
       return Promise.reject(new Error(res.message || 'Error'))
     } else {
-      console.log('request:76 res', res)
       return res
     }
   },
